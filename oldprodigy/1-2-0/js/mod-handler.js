@@ -128,7 +128,7 @@ class ModHandler {
 				if (Util.isDefined(d))
 					for (var u = d.getAll(), m = 0; m < u.length; m++) u[m].speed = g * (Util.isDefined(d.animations[m].baseSpeed) ? d.animations[m].baseSpeed : 10);
 			}
-		}, window.setGameSpeed(3), setTimeout((() => {
+		}, window.setGameSpeed(20), setTimeout((() => {
 			this.info('Use "setGameSpeed(speed)" to change the game speed at anytime.')
 		}), 1e3)
 	}
